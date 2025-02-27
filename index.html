@@ -11,17 +11,35 @@
     ></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <link rel="stylesheet" href="./assets/css/icons.css" />
   </head>
   <body>
     <header>
       <div class="container">
+        <i class="icon-menu_bars"></i>
         <img src="./assets/img/logo.png" alt="" />
         <nav class="icons">
-          <div><i class="fa-solid fa-pen"></i>Avis</div>
-          <div><i class="fa-solid fa-heart"></i>Favoris</div>
-          <div><i class="fa-solid fa-bell"></i>Alertes</div>
+          <div>
+            <i class="icon-pencil"></i>
+            <p>Avis</p>
+          </div>
+          <div>
+            <i class="icon-heart"></i>
+            <p>Favoris</p>
+          </div>
+          <div>
+            <i class="icon-notification_bell"></i>
+            <p>Alertes</p>
+          </div>
           <button>Connectez-vous</button>
+          <div>
+            <i class="icon-empty_cart"></i>
+            <p>Panier</p>
+          </div>
         </nav>
+        <div class="search">
+          <i class="icon-search"></i>
+        </div>
       </div>
     </header>
     <main class="container">
@@ -33,31 +51,35 @@
       <nav class="main-navigation">
         <div>
           <p>Hôtels</p>
-          <i class="fa-solid fa-bed"></i>
+          <i class="icon-hotels"></i>
         </div>
         <div>
           <p>Location de Vacances</p>
-          <i class="fa-solid fa-key"></i>
+          <i class="icon-vacation_rentals"></i>
         </div>
         <div>
           <p>Activités</p>
-          <i class="fa-solid fa-ticket"></i>
+          <i class="icon-attractions"></i>
         </div>
         <div>
           <p>Restaurants</p>
-          <i class="fa-solid fa-utensils"></i>
+          <i class="icon-restaurants"></i>
         </div>
         <div>
           <p>Forums de voyage</p>
-          <i class="fa-solid fa-comments"></i>
-        </div>
-        <div>
-          <p>Vols</p>
-          <i class="fa-solid fa-plane"></i>
+          <i class="icon-forums"></i>
         </div>
         <div>
           <p>Plus</p>
-          <i class="fa-solid fa-caret-down"></i>
+          <i class="icon-plus_c"></i>
+        </div>
+        <div class="flights">
+          <p>Vols</p>
+          <i class="icon-flights"></i>
+        </div>
+        <div class="cruises">
+          <p>Croisières</p>
+          <i class="icon-water_activities"></i>
         </div>
       </nav>
       <div class="main-picture-div">
@@ -102,6 +124,7 @@
           <img src="./assets/img/map.png" alt="map" />
         </div>
       </div>
+
       <h2>Madrid : les immanquables</h2>
       <section class="carrousel-div">
         <div class="carrousel-text">
@@ -113,88 +136,76 @@
           <span>Tout afficher</span>
         </div>
         <div class="carrousel-img">
-          <div class="eiffel-div">
-            <div class="eiffel-div-img">
-              <button><i class="fa-solid fa-heart"></i></button>
+          <div class="carrousel-item">
+            <div class="carrousel-item-img">
+              <button><i class="icon-heart"></i></button>
               <img src="./assets/img/taAward.png" alt="certif TripAdvisor" />
             </div>
             <img src="./assets/img/eiffeltower.jpg" alt="" />
 
             <p>Tour Eiffel</p>
             <div class="rating">
-              <i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i
-                class="fa-solid fa-circle-half-stroke"
-                style="color: #63e6be"
-              ></i>
+              <i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_half" style="color: #63e6be"></i>
               <p>139 901</p>
             </div>
             <p class="monument-desc">
               Tours et plateformes d'observation, Monuments & Points d'intérêt
             </p>
           </div>
-          <div class="triomphe-div">
-            <div class="triomphe-div-img">
-              <button><i class="fa-solid fa-heart"></i></button>
+          <div class="carrousel-item">
+            <div class="carrousel-item-img">
+              <button><i class="icon-heart"></i></button>
               <img src="./assets/img/taAward.png" alt="certif TripAdvisor" />
             </div>
             <img src="./assets/img/arc-de-triomphe-at-night.jpg" alt="" />
             <p>Arc de Triomphe</p>
             <div class="rating">
-              <i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i
-                class="fa-solid fa-circle-half-stroke"
-                style="color: #63e6be"
-              ></i>
-              <p>56 987</p>
+              <i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_half" style="color: #63e6be"></i>
+              <p>100 263</p>
             </div>
             <p class="monument-desc">
               Bâtiments architecturaux, Sites historiques
             </p>
           </div>
-          <div class="louvre-div">
-            <div class="louvre-div-img">
-              <button><i class="fa-solid fa-heart"></i></button>
+          <div class="carrousel-item">
+            <div class="carrousel-item-img">
+              <button><i class="icon-heart"></i></button>
               <img src="./assets/img/taAward.png" alt="certif TripAdvisor" />
             </div>
             <img src="./assets/img/louvre.jpg" alt="" />
             <p class="title">Musée du Louvre</p>
             <div class="rating">
-              <i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i
-                class="fa-solid fa-circle-half-stroke"
-                style="color: #63e6be"
-              ></i>
-              <p>100 845</p>
+              <i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_half" style="color: #63e6be"></i>
+              <p>38 936</p>
             </div>
             <p class="monument-desc">Bâtiments architecturaux, Musées d'art</p>
           </div>
-          <div class="dame-div">
-            <div class="dame-div-img">
-              <button><i class="fa-solid fa-heart"></i></button>
+          <div class="carrousel-item">
+            <div class="carrousel-item-img">
+              <button><i class="icon-heart"></i></button>
               <img src="./assets/img/taAward.png" alt="certif TripAdvisor" />
             </div>
             <img src="./assets/img/notre-dame.jpg" alt="" />
             <p>Notre Dame de Paris</p>
             <div class="rating">
-              <i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i class="fa-solid fa-circle" style="color: #63e6be"></i
-              ><i
-                class="fa-solid fa-circle-half-stroke"
-                style="color: #63e6be"
-              ></i>
-              <p>139 901</p>
+              <i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_full" style="color: #63e6be"></i
+              ><i class="icon-bubble_rating_half" style="color: #63e6be"></i>
+              <p>100 101</p>
             </div>
             <p class="monument-desc">
               Bâtiments architecturaux, Sites historique
